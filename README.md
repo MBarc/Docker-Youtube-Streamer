@@ -1,8 +1,7 @@
 # Docker-Youtube-Streamer
 A barebones Docker image for streaming to YouTube.
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![alt-text](https://github.com/MBarc/Docker-Youtube-Streamer/blob/main/YoutubeLogo.png)  |  ![alt-text](https://github.com/MBarc/Docker-Youtube-Streamer/blob/main/dockerLogo.png)
-
-
+<p float="left">
+  <img src="https://github.com/MBarc/Docker-Youtube-Streamer/blob/main/YoutubeLogo.png" width="100" />
+  <img src="https://github.com/MBarc/Docker-Youtube-Streamer/blob/main/dockerLogo.png" width="100" /> 
+</p>
