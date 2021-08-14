@@ -9,11 +9,11 @@ A barebones Docker image for streaming to YouTube.
 **Assumptions made in this guide: You have Docker downloaded and have a basic understanding of how to use it.**
 
 -------------------------------------------------------------------------------------------------------
-### Step 1.) Build the image from the Dockerfile I provided in this repository. Make sure to change the ENV variables to your specifications.
+#### Step 1.) Build the image from the Dockerfile I provided in this repository. Make sure to change the ENV variables to your specifications.
 
 > docker build -t imagename path/to/Dockerfile <br>
 
-### Step 2.) Use docker run to create the container and have it start automatically.
+#### Step 2.) Use docker run to create the container and have it start automatically.
 
 > docker run -dt -e video=host/path/to/video.mp4 -e stream_key=YOUR_STREAM_KEY -e youtube_stream_url=YOUTUBE'S_RTMP_URL imagename
 
