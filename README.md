@@ -11,9 +11,9 @@ A barebones Docker image for streaming to YouTube.
 -------------------------------------------------------------------------------------------------------
 ### Step 1.) Pull the image from Docker Hub or build the image from the Dockerfile I provided in this repository.
 
-> docker pull mbarc98/docker_youtube_streamer \n
+> docker pull mbarc98/docker_youtube_streamer <br>
 or
-> docker build -t imagename path/to/Dockerfile \n
+> docker build -t imagename path/to/Dockerfile <br>
 
 ### Step 2.) Use docker run to create the container and have it start automatically.
 
